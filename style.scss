@@ -2,12 +2,14 @@ body {
   background-color: #36393f;
   display: grid;
   place-items: center;
+  min-height: 100vh;
 }
 
 #logo {
-  height: 100vh;
+  max-height: 100vh;
   stroke: white;
-  animation: hueStrokeTransition 2s cubic-bezier(0.2,-2,0.8,2) infinite alternate;
+  animation: hueStrokeTransition 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite alternate;
+  animation-delay: 1s;
 
   @keyframes hueStrokeTransition {
     // @for $i from 1 through 360 {
