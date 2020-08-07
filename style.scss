@@ -1,0 +1,25 @@
+body {
+  background-color: #36393f;
+  display: grid;
+  place-items: center;
+}
+
+#logo {
+  height: 100vh;
+  stroke: white;
+  animation: hueStrokeTransition 2s cubic-bezier(0.2,-2,0.8,2) infinite alternate;
+
+  @keyframes hueStrokeTransition {
+    // @for $i from 1 through 360 {
+    //   #{$i/360 * 100%} {
+    //     stroke: hsl($i, 50%, 50%);
+    //   }
+    // }
+    0% {
+        stroke-opacity: 0;
+    }
+    100% {
+        stroke-opacity: 100;
+    }
+  }
+}
