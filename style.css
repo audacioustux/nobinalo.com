@@ -7,6 +7,8 @@ body {
 
 #logo {
   max-height: 100vh;
+}
+#logo g {
   stroke: white;
   -webkit-animation: hueStrokeTransition 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite alternate;
           animation: hueStrokeTransition 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite alternate;
@@ -15,19 +17,19 @@ body {
 }
 @-webkit-keyframes hueStrokeTransition {
   0% {
-    stroke-opacity: 0;
+    stroke: transparent;
   }
   100% {
-    stroke-opacity: 100;
+    stroke: #fff;
   }
 }
 @keyframes hueStrokeTransition {
   0% {
-    stroke-opacity: 0;
+    stroke: transparent;
   }
   100% {
-    stroke-opacity: 100;
+    stroke: #fff;
   }
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0FDQ0Y7O0FERUE7RUFDRSxpQkFBQTtFQUNBLGFBQUE7RUFDQSxtR0FBQTtVQUFBLDJGQUFBO0VBQ0EsMkJBQUE7VUFBQSxtQkFBQTtBQ0NGO0FEQ0U7RUFNRTtJQUNJLGlCQUFBO0VDSk47RURNRTtJQUNJLG1CQUFBO0VDSk47QUFDRjtBRFBFO0VBTUU7SUFDSSxpQkFBQTtFQ0pOO0VETUU7SUFDSSxtQkFBQTtFQ0pOO0FBQ0YiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0FDQ0Y7O0FERUE7RUFDRSxpQkFBQTtBQ0NGO0FEQ0U7RUFDRSxhQUFBO0VBQ0EsbUdBQUE7VUFBQSwyRkFBQTtFQUVBLDJCQUFBO1VBQUEsbUJBQUE7QUNBSjtBREVFO0VBTUU7SUFDRSxtQkFBQTtFQ0xKO0VET0U7SUFDRSxZQUFBO0VDTEo7QUFDRjtBRE5FO0VBTUU7SUFDRSxtQkFBQTtFQ0xKO0VET0U7SUFDRSxZQUFBO0VDTEo7QUFDRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

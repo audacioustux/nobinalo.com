@@ -7,10 +7,13 @@ body {
 
 #logo {
   max-height: 100vh;
-  stroke: white;
-  animation: hueStrokeTransition 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite alternate;
-  animation-delay: 1s;
 
+  g {
+    stroke: white;
+    animation: hueStrokeTransition 2s cubic-bezier(0.6, -0.28, 0.735, 0.045)
+      infinite alternate;
+    animation-delay: 1s;
+  }
   @keyframes hueStrokeTransition {
     // @for $i from 1 through 360 {
     //   #{$i/360 * 100%} {
@@ -18,10 +21,10 @@ body {
     //   }
     // }
     0% {
-        stroke-opacity: 0;
+      stroke: transparent;
     }
     100% {
-        stroke-opacity: 100;
+      stroke: #fff;
     }
   }
 }
