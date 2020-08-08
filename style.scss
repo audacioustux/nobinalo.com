@@ -1,3 +1,7 @@
+html {
+  overflow-y: hidden;
+}
+
 body {
   background-color: #36393f;
   display: grid;
@@ -13,6 +17,7 @@ body {
     animation: hueStrokeTransition 2s cubic-bezier(0.6, -0.28, 0.735, 0.045)
       infinite alternate;
     animation-delay: 1s;
+    stroke-linejoin: bevel;
   }
   @keyframes hueStrokeTransition {
     // @for $i from 1 through 360 {
